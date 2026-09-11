@@ -80,6 +80,6 @@ def _subscript(number):
     subscript_numbers = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
     return str(number).translate(subscript_numbers)
 
-#DO NOT UPLOAD TO PYTHONANYWHERE
+#DO NOT UPLOAD THIS LINE TO PYTHONANYWHERE
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)
